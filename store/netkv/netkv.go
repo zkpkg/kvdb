@@ -9,8 +9,8 @@ import (
 
 	"github.com/streamingfast/logging"
 
-	"github.com/streamingfast/kvdb/store"
-	pbnetkv "github.com/streamingfast/kvdb/store/netkv/pb"
+	"github.com/zkpkg/kvdb/store"
+	pbnetkv "github.com/zkpkg/kvdb/store/netkv/pb"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

@@ -18,4 +18,4 @@ import (
 	"github.com/streamingfast/logging"
 )
 
-var zlog, tracer = logging.PackageLogger("kvdb", "github.com/streamingfast/kvdb/store/badger")
+var zlog, tracer = logging.PackageLogger("kvdb", "github.com/zkpkg/kvdb/store/badger")

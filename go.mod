@@ -1,4 +1,4 @@
-module github.com/streamingfast/kvdb
+module github.com/zkpkg/kvdb
 
 go 1.17
 

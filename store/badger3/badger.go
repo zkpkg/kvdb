@@ -10,7 +10,7 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 	"github.com/dgraph-io/badger/v3/options"
-	"github.com/streamingfast/kvdb/store"
+	"github.com/zkpkg/kvdb/store"
 	"github.com/streamingfast/logging"
 	"go.uber.org/zap"
 )

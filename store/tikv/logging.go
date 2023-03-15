@@ -27,7 +27,7 @@ import (
 
 var hook = &logrusHook{}
 
-var zlog, tracer = logging.PackageLogger("kvdb", "github.com/streamingfast/kvdb/store/tikv", logging.LoggerOnUpdate(func(newLogger *zap.Logger) {
+var zlog, tracer = logging.PackageLogger("kvdb", "github.com/zkpkg/kvdb/store/tikv", logging.LoggerOnUpdate(func(newLogger *zap.Logger) {
 	hook.logger = newLogger.Named("tikv-client")
 	reconfigureLogrusLevel(hook.logger)
 }))

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/streamingfast/kvdb/store"
+	"github.com/zkpkg/kvdb/store"
 )
 
 var debug = false

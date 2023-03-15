@@ -23,7 +23,7 @@ import (
 
 	"cloud.google.com/go/bigtable"
 	"github.com/golang/protobuf/proto"
-	"github.com/streamingfast/kvdb"
+	"github.com/zkpkg/kvdb"
 )
 
 func IsEmptyRow(row bigtable.Row) bool {

@@ -18,4 +18,4 @@ import (
 	"github.com/streamingfast/logging"
 )
 
-var zlog, _ = logging.PackageLogger("kvdb", "github.com/streamingfast/kvdb/base/bigt")
+var zlog, _ = logging.PackageLogger("kvdb", "github.com/zkpkg/kvdb/base/bigt")

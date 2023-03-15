@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/streamingfast/kvdb/store"
+	"github.com/zkpkg/kvdb/store"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

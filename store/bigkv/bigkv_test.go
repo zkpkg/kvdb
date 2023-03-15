@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/streamingfast/logging"
-	"github.com/streamingfast/kvdb/store"
-	"github.com/streamingfast/kvdb/store/storetest"
+	"github.com/zkpkg/kvdb/store"
+	"github.com/zkpkg/kvdb/store/storetest"
 	"github.com/stretchr/testify/require"
 )
 

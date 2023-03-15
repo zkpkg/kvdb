@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/streamingfast/logging"
-	"github.com/streamingfast/kvdb/store"
-	_ "github.com/streamingfast/kvdb/store/badger"
-	netkvserver "github.com/streamingfast/kvdb/store/netkv/server"
-	"github.com/streamingfast/kvdb/store/storetest"
+	"github.com/zkpkg/kvdb/store"
+	_ "github.com/zkpkg/kvdb/store/badger"
+	netkvserver "github.com/zkpkg/kvdb/store/netkv/server"
+	"github.com/zkpkg/kvdb/store/storetest"
 	"github.com/stretchr/testify/require"
 )
 
